@@ -1,0 +1,592 @@
+MERN STACK
+-------------
+M-MONGODB
+E-EXPRESS JS
+R-REACT
+N-NODE JS
+-------------
+-------------------------------------------------------------------------- HTML-------------------------------------------------------------------------------------------
+HTML-SKELETON OF MERN
+--------------------------
+FRONTENED
+*************
+>HTML
+>CSS(BOOTSTRAP-FRAMEWORK)
+>JS(TYPE_SCRIPT-FRAMEWORK)
+>REACT
+BACKENED
+************
+>NODE JS(EXPRESS JS-FRAMEWORK)
+>MONGODB
+_______________________________________
+HTML5
+******* 
+-HYPERTEXT MARKUP LANGUAGE
+-SKELETON OF THE WEB PAGE
+_______________________________________
+*HTML TAG IS PARENT OF HEAD&BODY TAG
+*<br>--NO CONTENT
+*inspect--TO VIEW PAGE SOURCE TO EDIT HTML
+>alt+z--makes content fit in to the screen
+>just h1 & enter to automatically comes tags <>
+. <b>Bold</b>
+. <i>Italic</i>
+. <u>Underline</u>
+. <big>Big</big>
+. <small>Small</small>
+ctrl+shift+
+-------------
+Semantic Tags
+-------------
+creates better structure
+<header>
+<main>
+<footer>
+<nav>
+-----------
+<section>
+<article>
+<aside>
+-----------
+Div Tag - block level element
+Span Tag - Inline element
+---------------------------
+FORM
+*******
+ATTRIBUTES AND ACTION
+>SELECT-DROP DOWN
+>iframe
+>VIDEOS-pixabay.com
+<video src="images/video.mp4" width="500px" height="250px" controls autoplay muted loop></video>
+---------------------------------------
+FONT AWESOME
+>LIBRARIES CDN CODE TAG COPT IN HEAD
+>ICONS COPY CODE
+>redirect to icons by link --
+     <a href="https://www.linkedin.com/in/chandanapriya-badina-827b97276/">
+    <i class="fa-brands fa-linkedin"></i></a>
+----------------------------------------------------------
+----------------------------------------------------------------------------CSS-------------------------------------------------------------------------------------------
+-(CASCADING STYLE SHEETS)
+-Style the web pages
+-how html elements are to be displayed on the screen
+-3 types
+. Inline
+. Internal
+. External 
+SELECTORS:4
+--------------
+Universal Selector(*)
+class selector-(.)
+id selector-(#)
+element selector(<tag>)
+-----------------------------------
+IMPORTANT CSS PROPERTIES::::::
+-----------------------------------
+
+font-style
+
+font-weight
+
+text-decoration(line through, inline, over line)
+
+border(short hand type)
+
+border-width
+
+border-color
+
+margin
+
+color
+
+background-color
+
+cursor
+
+font-size
+
+font-family
+
+height(px,%)
+
+width
+
+background-image
+
+border-radius
+
+padding
+
+--------------------------
+Box Model :
+--------------------------
+(Inside to outide)
+.content
+.padding
+.border
+.margin
+>picture in phone camera
+-----------------------------------
+****CSS POSITIONING****
+-5 TYPES:
+. static
+. relative
+. fixeadds
+. absolute
+. sticky
+-elements are positioned in top,left,bottom,right
+---------------------
+Z-INDEX-stack order of an element
+----------------------
+CSS OVERFLOW-contents outside of the box
+------------------
+values:
+.visible-overflow content is visible
+.hidden-overflow content is not visible
+.scroll-scroll bar in that box width
+.auto-scroll bars only necessary
+--------------------
+CSS DISPLAY-how an element is displayed
+--------------------
+display:none;(no display)
+display:inline;(line-by-line)
+display:block;(
+display:inline-block;
+--------------------------
+CSS GRID-rows and columns
+--------------------------
+display:grid;
+display:inline-grid;
+-----GAP-----(px)
+spaces b/w each row/column
+.row-gap
+.column-gap
+.gap
+------------------------------
+RESPONSIVENESS
+------------------------------
+-fisrt designs fits in mobiles
+RESPONSIVE BREAKPOINTS
+----------------------
+DEVICE                            DEVICE SIZE
+-------                            ------------
+Extra Small Devices        <576px
+Small Devices                  >=576px
+Medium Devices               >=768px
+Large Devices                   >=992px
+Extra Large Devices         >=1200px
+-----------------------------------
+IN VS CODE>           .classname means automatically <div> cames
+---------------------------------------------------------------
+>SAME THEME FOR ALL PAGES SO 
+:root{
+ --primary-color: #21486f;
+    --secondary-color:#733d89;
+    --text-color:#379e8b;
+    --light-gray:#7cb74c;
+    --spacing-unit: 1rem;
+    --border-radius: 8 px;
+    --box-shadow: 0 2px 4px rgba(57, 43, 65, 0.1);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+--------------------------------------------------
+rgba-(red,green,blue,alpha-opacity)
+-------------------------------------------------
+*******@media queries *********
+-----------------------------------------------------
+100vh-(view port height)
+
+
+gradient background
+.flex-stable
+.grid-unstable
+>-difference..
+.Flexbox Properties:
+----------------------------
+ .Flexbox Container 
+ . Direction 
+ . Align items 
+ .justify-content:center;(to middle)
+ .Wrap(follows parent)
+ . Align Content
+
+. Bootstrap _Grid  -12 rows & 12 columns
+
+. Gradients
+    -2
+        . Linear gradient 
+        . Radial gradient
+
+===========================================
+ ________________JAVASCRIPT___________________
+===========================================
+
+JAVASCRIPT:
+--introduced by BRENDAN EICH
+--scripting language(NOT CONVERTED INTO executable FILE) as well as programming language(CREATED EXECUTABLE FILES)
+--converts static page to dynamic  pages(General def.)
+
+***FOR MERN DEF:
+____________________
+JS IS A SINGLE - THREADED SYNCHRONISATION PROGRAMMING LANGUAGE WHICH CONVERTS STATIC PAGES INTO DYNAMIC PAGES.***
+>THREAD:
+. SINGLE-THREADED=SINGLE LINE EXECUTES
+. MULTI-THREADED=ALL CODE(MULTIPLE LINES) EXECUTES
+JS-SINGLE THREADED
+JAVA-MULTI THREADED
+>SYNCHRONOUS:
+HAVING SOME RULES TO EXECUTES LINE BY LINE EVEN IF AN ERROR OCUURED,IT TERMINATES CODE AND GET AN ERROR
+                                           --------------------------------------------------------------------------------------------
+JS-SYNCHRONOUS
+JAVA-ASYNCHRONOUS
+
+IN JS, ASYNCHRONOUS OPERATIONS ARE USED LIKE:PROMISES,ASYNC,AWAIT
+>ES6+ LATEST JS OF ECMA SCRIPT SPECIFICATION
+
+>DIFF B/W SCRIPTING language AND PROGRAMMING language:
+Difference between Scripting Language & Programming Language?
+
+Scripting languages are translated and cannot be converted into an executable file. Scripting languages can combine existing modules or components
+
+Programming languages are generally compiled and created to executable the file and are used to build applications from scratch.
+
+> START JS CODE - IN BOTTOM OF THE BODY
+  <script> element in <head>
+   
+>VARIABLES:
+    
+>DATATYPES:
+PRIMITIVE STRING,NUMBER,BOOLEAN,BIGINT,UNDEFINED,NULL,SYMBOL)-STORES ONE OBJECT
+NON-PRIMITIVE(ARRAYS,OBJECT)-STORES MORE THAN 1 OBJECT
+syntax: let variable_name={
+                    key:valule,
+                    key:value;
+                        .......
+              }
+
+>OPERATORS:
+ARITHMETIC (+,-,%,++,--)
+COMPARISON (RELATIONAL)(>,<,<=,>=,=)
+BITWISE(&,|,<<,>>)
+LOGICAL
+ASSIGNMENT
+
+>CONDITIONAL STATEMENTS:
+IF
+ELSE
+ELSE-IF
+
+PROBLEMS:
+. ARRAYS
+. CONDITIONAL STATEMENTS
+. LOOPS
+. PALINDROME
+. FACTORIAL,etc
+>NO fun(),only traditional code
+>LOOPS
+WHILE
+FOR
+>for-in
+
+>ARRAYS IN JS:
+---------------
+ARRAY IS A COLLECTION OF SAME DATATYPE OR DIFFERENT DATATYPES.
+Eg: let heroes = ["ironman","hulk","thor"];
+       let marks=[12,10,54,146]
+       let items=["banana",58,"apple",21
+
+======================================================================== 
+DOM(DOCUMENT OBJECT MODEL)
+========================================================================
+----document object model is a programming interface for html and xml documents it represents the structure of a document as a tree of object allowing javascript to dynamically access and manipulate content , structure,  and style.
+(it's a collection of a piece of elements.)
+>HTML
+--------
+                                           DOM
+                                  (DOCTYPE HTML)
+                                           |
+                                        HTML
+                             |                                  |
+                        HEAD                            BODY
+               |          |          |
+    METATAGS   TITLE   LINKS 
+ >CRITICAL RENDERING PART:
+=============================
+Q) HOW WEBSITE WORKS?? HOW PAINTING DISPLAYS IN OUTPUT?
+--------------------------------------------------------------
+>Critical rendering part contains "6_Steps":
+. DOM
+. CSS OM(object model)
+. RENDER TREE (js)
+. HTML+CSS OM+RENDER'
+. PAINTING(For dispaly the website combining all 4 types)
+. COMPOSITY(Everything rendered in an order way)
+      >CSS                             DOM
+        ---                          (DOCTYPE HTML)
+                                           |
+                                        HTML
+                             |                                               |
+                        HEAD                                        BODY
+               |          |          |            |                      |       |        |
+    METATAGS   TITLE   LINKS StyleTags       H1     P       Img
+                                                                           |       |        |
+                                                                         SELECTORS
+
+>JS
+-----
+                                   DOM
+                          (DOCTYPE HTML)
+                                           |
+                                        HTML
+                             |                                               |
+                        HEAD                                        BODY    -----script
+               |          |          |            |                      |       |        |
+    METATAGS   TITLE   LINKS StyleTags       H1     P       Img
+                                                                           |       |        |
+                                                                         SELECTORS
+
+
+>DOM MANUPULATIONS:
+=======================
+HOW WE CAN APPLY MANAIPULATIONS TO THE DOM?
+. SELECTORS
+. EVENT LISTENERS
+. FETCHING
+
+example of dom:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="heading">Welcome to DOM</h1>
+    <script>
+        const heading=document.getElementById("heading");
+        heading.textContent="DOM MANIPULATION IN JS";
+        heading.style.color="blue";
+    </script>
+    
+</body>
+</html>
+--------------------------------------------------
+Method-->Example →Returns
+
+getElementById()→document.getElementById("header")"
+
+→ Single element
+
+getElementsByClassName()→document.getElementsByClass
+
+Name("btn")→HTMLCollection (live)
+
+getElementsByTagName()→document.getElementsByTagName("div") →HTML Collection(live)
+
+querySelector()→document.querySelector(".container")
+
+
+→First matching element
+
+querySelectorAll()→document.querySelectorAll("button")
+
+→ NodeList (static)
+
+Method Example → Effect
+
+createElement()'document.createElement("div")→
+
+Creates a new element
+
+appendChild()' parent.appendChild(newElement) → Adds
+
+to the end
+
+removeChild() parent.removeChild(child) Removes
+
+child
+
+===============================================
+    **	CLOSURSES**
+===============================================
+
+What is a closure?
+A closer is created when a function "remembers" its lexical scope, even when that function is executed outside of its original scope.
+Simply:
+A function inside another function can still assess the outer functions variables, even after the outer function has finished running.
+
+=======================================
+  CALLBACK()
+=======================================
+>Callback function is a function which passes an argument to other function.
+
+>Callback in Asynchronous Code (e.g: `setTimeout`)
+
+>Callback Hell
+------------------------------------------------
+How to avoid callback hell:
+How can you use:
+Named function to flatten structure
+Promises
+Async or await
+-----------------------------------------------
+>Promises
+------------------------------------------------
+what is a promise?
+A promise is a javascript object that reprersents the eventual completion (or failure)
+of  an asynchronous operation.
+It has 3 steps:
+1.Pending - initial state,neither fulfilled nor rejected.
+2.Fullfilled-operation completed successfully.
+3.Rejected-operation failed.
+
+
+const promise = new Promise((resolve, reject)
+=>{
+   //async task
+  if(/* success */) {
+    resolve("Success message");
+} else {
+  reject("Error Message");
+}
+
+------------------------------------------------------------------
+ map
+ filter
+ reduce
+spread operator
+ rest operator 
+shallow copy
+ deep copy
+************************************************************************************************
+
+-------------------REACT----------------------------------
+
+************************************************************************************************
+-It's a powerful javascript library(collection of modules) used to build resuable UI coomponents and single-page applications with fast rendering using virtual DOM.
+-created by "Jordan Walke" a software engineer at FACEBOOK(2011),in market open-source(2013).
+-uses: -update DOM efficiently
+            -manage complex UIs with lot of dynamic data
+            - fast, reusable, and maintainable*
+            -component-based architecture*
+            -single-page application*
+eg: <h1>Hello {name} </h1>
+-changes made in memory first, then sync with real DOM.
+Functional components:
+----------------------
+-A functional component is a JavaScript  function that returns JSX
+function Welcome(){
+    return <h2>welcome to react</h2>
+}
+-Pascal Case (1st word capital)
+Props:(Properties)
+------------------
+Props allow you to pass *data from a parent component to a child component*.
+const User=(props)=>{
+  return <h3>Hello,{props.name}</h3>;
+};
+
+PROPS DRILLING:
+----------------
+-passing data from a top-level component down to deeply nested components,  even if intermediate components don't need to use that data, but just pass it along.
+//App.jsx
+function App() {
+  const name = "Charlie";
+  return <Parent name={name} />;
+}
+
+//Parent.jsx
+function Parent(props){
+ return <Child name={props.name} />;
+}
+
+//Child.jsx
+function Child(props){
+ return <h1>Hello,{props.name} </h1>;
+}
+
+------------------------------------------------
+#####***REACT HOOKS***   [ IMP IN INTERVIEW]#####
+------------------------------------------------
+Hooks are special javascript functions introduced in React 16.8 that allow functional components to use features like state,lifecycle methods,and more features that were earlier available only in class components.
+Built-in Hooks:
+. useState - state management
+. useEffect - side effects / lifecycle methods
+. useRef - accessing and persisting DOM values
+
+**1. useState - react hook that allows local state management in a functional component.
+ syn: const[state,setState]=useState(initialValue);
+   *state-current value
+   *setState-function to update the value
+   *initialValue-starting value for the state(string,number,array,object,etc) 
+
+**2.useEffect - Handling side effects
+  def: useEffect is a hook that lets you run side effects like fetching data ,setting up subscriptions ,or manually updating the dom.
+- SideEffects - Interactions with the outside world or things that don't belong to the main rendering output.
+Examples:
+. API calls 
+. dom updates (scroll , title,  etc)
+. subscriptions
+. timers
+
+*3.useRef - Referencing DOM elements or Persistent Values
+ def: useRef is a hook that returns a mutable object which persists across renders.Its is mainly used for:
+ . Accessing DOM elements(like input,video,etc)
+ . Storing any mutable value without triggering a re-render
+ Syn: const ref = useRef(initialValue);
+
+*4.useContext Hook 
+       def: -allows you to access values from a `React.Context` without passing props manually through every level (avoids props drilling).
+
+*5.useReducer Hook
+      def: - used for more complex state logic (like Redux-style state updates).
+     syn: const [state, dispatch] = useReducer(reducerFn, initialState);
+ 
+*6.useMemo Hook
+     def: -it memorizes a calculated value and recomputes it when it's dependencies change.(re-render)
+     syn:  const result = useMemo(( ) => computeHeavy(input), [input]);
+
+----------------------------------------------
+ContextAPI
+ROUTING--- *STATIC ROUTING 
+                      *DYNAMIC ROUTING
+NAVIGATION
+NESTED
+PROTECTEDROUTE
+NOTFOUND
+LAZY
+   >lazy.js
+function App(){
+ return(
+  <Suspense fallback={<div>Loading......</div>}>
+   <Routes>
+    </Suspense>
+);
+}
+   > App.js
+ import {lazy, Suspense} from 'react';
+const Home=lazy
+----------------------
+CONTEXT API --------------MISSING
+----------------------
+***********************************
+TO CREATE REACT APP-------
+************************************
+REDUX :
+========
+in GitHub: https://github.com/vamsi123-paidi/nec-react/blob/main/notes/redux_complete_guide.txt
+ nec-react/notes
+/redux_complete_guide.txt
+  npm create vite@latest redux
+**************************************
+
+Def: Redux is a state management library for javascript apps(mostly used with react) that helps you manage and centralize the application state.
+
+
