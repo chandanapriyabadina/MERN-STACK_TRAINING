@@ -588,5 +588,17 @@ in GitHub: https://github.com/vamsi123-paidi/nec-react/blob/main/notes/redux_com
 **************************************
 
 Def: Redux is a state management library for javascript apps(mostly used with react) that helps you manage and centralize the application state.
+=================================================================================
+                                                     //BACKENED//
+=================================================================================
+************NODEJS*************
+=================================================================================
+
+SEE IN SIR GITHUB NEC-BACKENED NOTES MAYBE,,,,
+====================================================================================
+########################################################################
+MONGODB CONNECTION STRING 
+mongodb+srv://chandanapriyabadina:root@dbconnection.ac9fqcf.mongodb.net/?retryWrites=true&w=majority&appName=dbconnection
+########################################################################
 
 
