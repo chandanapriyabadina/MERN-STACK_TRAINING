@@ -596,9 +596,6 @@ Def: Redux is a state management library for javascript apps(mostly used with re
 
 SEE IN SIR GITHUB NEC-BACKENED NOTES MAYBE,,,,
 ====================================================================================
-########################################################################
-MONGODB CONNECTION STRING 
-mongodb+srv://chandanapriyabadina:root@dbconnection.ac9fqcf.mongodb.net/?retryWrites=true&w=majority&appName=dbconnection
-########################################################################
+
 
 
